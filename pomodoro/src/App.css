@@ -1,0 +1,38 @@
+
+body{
+  color: white;
+}
+
+h2, h3 {
+  color:rgb(19, 18, 18)
+}
+
+.dual-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 800px;
+  margin: auto;
+  justify-items: center;
+  align-items: center;
+}
+
+.time-sets{
+  display: grid;
+  grid-template-columns: 50px 200px 50px;
+  justify-items: center;
+  align-items: center;
+}
+
+.btn-small, .btn-large {
+  background-color: black;
+  opacity: 0.8;
+}
+
+.btn-small {
+  margin-top: 10px;
+}
+
+
+.btn-large {
+  margin: 6px;
+}
